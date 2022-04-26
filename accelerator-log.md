@@ -4,7 +4,7 @@
 ```json
 {
   "projectName" : "tanzu-java-web-app",
-  "repositoryPrefix" : "gcr.io/apps"
+  "repositoryPrefix" : "us-central1-docker.pkg.dev/apps"
 }
 ```
 ## Log
@@ -87,7 +87,7 @@
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1].<combo>.transformations[1].transformations[0] (ReplaceText)
 ┃ ┃ ┃ ┃ ┃ ┗  Info Will replace [tanzu-java-web-app->tanzu-java-web-app]
 ┃ ┃ ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[1].<combo>.transformations[1].transformations[1] (ReplaceText)
-┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->gcr.io/apps]
+┃ ┃ ┃ ┗ ┗ ┗  Info Will replace [your-registry.io/project->us-central1-docker.p...(truncated)]
 ┃ ┃ ┃ ┏ engine.transformations[0].merge.transformations[0].sources[2] (Combo)
 ┃ ┃ ┃ ┃  Info Combo running as Chain(Include, Chain(chain))
 ┃ ┃ ┃ ┃ engine.transformations[0].merge.transformations[0].sources[2].<combo> (Chain)
